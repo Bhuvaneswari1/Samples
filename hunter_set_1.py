@@ -6,7 +6,7 @@ y = input().split()
 for i in range(0,n):
 	x.append(y[i])
 
-result = collections.Counter(a)
+result = collections.Counter(x)
 z = []
 for i in result:
 	if(result[i]>1):
