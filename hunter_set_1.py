@@ -1,19 +1,18 @@
 import collections
 
 n = int(input())
-a = []
-b = input().split()
+x = []
+y = input().split()
 for i in range(0,n):
-	a.append(b[i])
+	x.append(y[i])
 
-results = collections.Counter(a)
-c = []
-#print(results)
-for i in results:
-	if(results[i]>1):
-		c.append(i)
+result = collections.Counter(a)
+z = []
+for i in result:
+	if(result[i]>1):
+		z.append(i)
 c = sorted(c)
 if not c:
 	print("unique")
 else:
-	print(" ".join(c))
+	print(" ".join(z))
