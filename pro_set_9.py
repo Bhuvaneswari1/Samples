@@ -1,2 +1,3 @@
-N=int(input())
-print(N)
+num=int(input())
+move_num=num
+print(move_num)
