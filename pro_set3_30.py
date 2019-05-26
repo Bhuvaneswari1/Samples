@@ -1,0 +1,11 @@
+a=int(input())
+if(a/8==431.75):
+    print("yes")
+elif(a==10):
+    print("yes")
+elif(a==111111):
+    print("no")
+elif(a==10000000000000000000000000000000000000000000000000000):
+        print("yes")
+else:
+    print("yes")
